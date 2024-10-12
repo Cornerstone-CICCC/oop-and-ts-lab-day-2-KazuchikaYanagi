@@ -5,7 +5,7 @@
 interface UserProfile {
   username: string;
   email: string;
-  lastLogin?: string;
+  lastLogin?: Date;
 }
 
 function getLastLoginMessage(user: UserProfile): void {
